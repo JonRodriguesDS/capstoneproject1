@@ -1,0 +1,91 @@
+
+.header-color {
+    background: linear-gradient(300deg, #000dff, #2c3be2, #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  .dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+  h4{
+    display:flexbox;
+    margin-left:130px;
+    margin-right:130px;
+  }
+
+  h4.education{
+    position: relative;
+    right: 5px;
+    bottom:90px;
+  }
+
+img.skillimg{
+    display: flexbox;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    float: left;
+}
+
+img.gaming{
+    display: flexbox;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    float: right;
+}
+.title-game{
+    text-align: right;
+}
+
+.games-description{
+    text-align: right;
+    margin-right: 115px;
+
+}
+.code-description{
+    display: grid;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+div.edu{
+    text-align: left;
+}
+.unied{
+  padding: 0;
+  margin: 0;
+}
+.switcher {
+  position: fixed;
+  bottom:0px;
+  right:00px;
+}
